@@ -1,0 +1,71 @@
+body {
+    background-color: #c717c2dd;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-size: 200% 200%;
+    animation: cambiar 10s infinite;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background-color: rgb(114, 0, 162);
+    width: 200px;
+    height: 50px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+    border-color: Black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: ease-in 0.2s;
+}
+
+button:hover {
+    background-color: rgb(123, 0, 255);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.529);
+    font-size: 20px;
+}
+
+.admini {
+    background-color: rgb(114, 0, 162);
+    width: 400px;
+    height: 50px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+    border-color: Black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: ease-in 0.2s;
+}
+
+.contenedorbotones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajabotones {
+    display: flex;
+    flex-direction: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
